@@ -3294,9 +3294,7 @@ div#logo{
   opacity: 0;
 }
 
-.project img{
-width: 300px;
-}
+
 
 .project h1{
   margin: 70px 0;
@@ -3305,4 +3303,9 @@ width: 300px;
 .project p{
   font-weight: 500;
   margin-bottom: 70px;
+}
+
+.project img{  
+    margin: 100px 0;    
+    box-shadow: 0px 5px 15px #e7e7e7;
 }
