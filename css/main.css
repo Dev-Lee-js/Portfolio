@@ -86,6 +86,10 @@
 
 @keyframes visualLogoAni {}
 
+html{
+  scroll-behavior: smooth;
+}
+
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, small article, aside, footer, header, nav, address, section, main, time, ol, ul, li, hr, strong, figure {
   margin: 0;
   padding: 0;
@@ -1952,7 +1956,7 @@ html, body {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 8% 9em 0 9em;
+  padding: 5% 9em 0 9em;
   height: 100vh;
   height: 100%;
   background: rgba(0, 0, 0, .5);
@@ -2025,8 +2029,10 @@ html, body {
 }
 
 .hero .hero_center {
-  margin-top: 4em;
-  transition: margin-top .5s, font-size .5s
+  margin-top: 2em;
+  transition: margin-top .5s, font-size .5s;
+  display: flex;
+  gap: 30px;
 }
 
 .hero .hero_center .hero_link {
@@ -2179,7 +2185,7 @@ html, body {
     font-size: 18px
   }
   .hero .hero_center {
-    font-size: 16px
+    font-size: 16px;
   }
   .hero .hero_bottom {
     right: 7em
@@ -3286,4 +3292,17 @@ div#logo{
   top: 60%;
   transform: translate(-50%, -50%);
   opacity: 0;
+}
+
+.project img{
+width: 300px;
+}
+
+.project h1{
+  margin: 70px 0;
+}
+
+.project p{
+  font-weight: 500;
+  margin-bottom: 70px;
 }

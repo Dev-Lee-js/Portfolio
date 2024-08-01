@@ -167,13 +167,13 @@ $(function() {
     var obj = {
       "list_01": {
         'number': twolength(6),
-        'title': 'Twitter',
-        'desc': '트위터 클론 코딩'
+        'title': 'Yeonda',
+        'desc': '소개팅 웹 서비스'
       },
       "list_02": {
         'number': twolength(7),
-        'title': 'MOVIE APP',
-        'desc': '영화 소개 사이트'
+        'title': 'Bookstore',
+        'desc': '도서 판매 사이트'
       },
       "list_03": {
         'number': twolength(8),
