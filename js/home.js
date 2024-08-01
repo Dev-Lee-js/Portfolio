@@ -177,29 +177,14 @@ $(function() {
       },
       "list_03": {
         'number': twolength(8),
-        'title': 'Gabia',
-        'desc': '가비아 사이트 코딩'
+        'title': 'CD Player',
+        'desc': 'CD Player 제작'
       },
       "list_04": {
         'number': twolength(9),
-        'title': 'KAKAO TALK',
-        'desc': '카카오톡 클론 코딩'
-      },
-      "list_05": {
-        'number': twolength(10),
         'title': 'M E G A B O X',
         'desc': '메가박스 사이트 클론 코딩'
       },
-      "list_06": {
-        'number': twolength(11),
-        'title': 'LOCK & LOCK',
-        'desc': '락앤락 사이트 클론 코딩'
-      },
-      "list_07": {
-        'number': twolength(12),
-        'title': 'SK Hynix',
-        'desc': 'SK 하이닉스 사이트 클론 코딩'
-      }
     };
 
 
